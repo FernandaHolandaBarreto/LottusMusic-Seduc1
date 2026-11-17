@@ -84,5 +84,32 @@ h1{
 .main-content nav{
     display:flex;
     gap: 10px;
+
+}
+
+.section-statistcs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    background-color: var(--color-LottusBerry);
+    padding: 20px 0;
     
+}
+
+.section-statistcs h2{
+    font-weight: 400;
+    color: var(--color-light);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-title);
+}
+
+.section-statistcs p{
+    color: var(--color-light);
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+}
+
+.section-statistcs div{
+    text-align: center;
 }
